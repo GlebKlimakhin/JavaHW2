@@ -13,7 +13,7 @@ public class Main {
         findMinAndMax();
         int [] Arr = new int[]{1,2,3};
         System.out.println(isSumEqual(Arr));
-        System.out.println("Введите индекс смещения массива");
+        System.out.println("Введите индекс смещения массива(отрицательный или полжительный)");
         Scanner in=new Scanner(System.in);
         int plusPos=in.nextInt();
         in.close();
